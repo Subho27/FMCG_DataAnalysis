@@ -1,0 +1,23 @@
+{% if data %} 
+<table>
+    <thead>
+      <tr>
+        <th>Material ID</th>
+        <th>Material Details</th>
+        <th>RM/PM</th>
+        <th>Material Group</th>
+      </tr>
+    </thead>
+    <tbody>
+    <!-- jinja2 Technique --> 
+    {% for i in data %}
+      <tr>
+        <td>{{i.MaterialID}}</td>
+        <td>{{i.MaterialDetails}}</td>
+        <td>{{i.RM_PM}}</td>
+        <td>{{i.MaterialGroup}}</td>
+      </tr>
+    {% endfor %}  
+    </tbody>
+  </table>
+{% endif %}
