@@ -3,4 +3,4 @@ A Web Application, built with Django to showcase findings achieved from provided
 
 # Folder Description
 Screenshot : Screenshots from Project UI<br /> 
-FMCG_DataAnalysis : Project COde
+FMCG_DataAnalysis : Project Code
